@@ -12,7 +12,9 @@ public class User {
     private String firstname;
     private String lastname;
     @Id
+    private String id;
     private String username;
     private String password;
+    private boolean isLoggedIn;
     private List<PasswordEntry> passwordEntries;
 }
